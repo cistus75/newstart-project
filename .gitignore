@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Weights & Logs
+runs/
+*.onnx
+*.engine
+*.tflite_saved_model/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project Specific
+test_input/
+test_output/
+calibration_image_sample_data*
