@@ -35,3 +35,10 @@ YOLOv8n 기반 객체 탐지를 통해 키오스크 화면 내 다양한 UI 요�
 - **Performance**: mAP50 **97.8%** 달성
 - **HW Acceleration**: NVIDIA RTX 4070 Ti 활용 (CUDA 11.8)
 - **Dependencies**: ultralytics, opencv-python, torch, pyyaml
+
+
+## 실제 성능 도표
+
+
+<img width="573" height="284" alt="image" src="https://github.com/user-attachments/assets/6e447b41-3c5a-48ee-a3a9-b19afdb18a90" />
+
