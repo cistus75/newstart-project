@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>반응형 키오스크</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="kiosk-container">
+
+  <!-- 메인 화면 -->
+  <div id="main-screen">
+    <div class="header-area">
+      <div class="header-title">코드스패너 카페</div>
+      <div class="primary-cats">
+        <div class="p-cat active" onclick="changePrimaryTab(this)">추천메뉴</div>
+        <div class="p-cat" onclick="changePrimaryTab(this)">커피</div>
+        <div class="p-cat" onclick="changePrimaryTab(this)">에이드</div>
+        <div class="p-cat" onclick="changePrimaryTab(this)">프라페/스무디</div>
+        <div class="p-cat" onclick="changePrimaryTab(this)">논커피</div>
+        <div class="p-cat" onclick="changePrimaryTab(this)">디저트</div>
+      </div>
+    </div>
+
+    <div class="menu-grid" id="menu-grid"></div>
+
+    <div class="cart-area">
+      <div class="cart-items-wrap" id="cart-items-wrap"></div>
+      <div class="cart-bottom">
+        <div class="cart-left-btns">
+          <button class="btn-sm" onclick="clearCart()">전체삭제</button>
+        </div>
+        <button class="pay-btn" onclick="processPayment()">
+          <span style="color:#d32f2f" id="total-pay-price">0</span>원 결제하기
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 옵션 선택 모달 -->
+  <div class="modal" id="option-modal">
+    <div class="modal-content">
+      <h3 id="option-title">메뉴명</h3>
+      <div id="option-sections"></div>
+      <div class="option-summary">
+        추가금액: <span id="option-extra-price">0</span>원
+      </div>
+      <div style="display: flex; gap: 10px; margin-top: 14px;">
+        <button class="modal-btn modal-btn-cancel" onclick="closeModal('option-modal')">취소</button>
+        <button class="modal-btn" onclick="addToCart()">주문담기</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 주문 내역 확인 모달 -->
+  <div class="modal" id="confirm-modal">
+    <div class="modal-content">
+      <h3 class="confirm-title">주문 내역 확인</h3>
+      <p class="confirm-subtitle">장바구니에 담긴 메뉴가 맞는지 확인해주세요.</p>
+      <div class="confirm-cart-list" id="confirm-cart-list"></div>
+      <div class="confirm-total-box">
+        <span>총 결제금액</span>
+        <span id="confirm-total-price">0원</span>
+      </div>
+      <div class="confirm-btn-row">
+        <button class="modal-btn modal-btn-cancel" onclick="closeModal('confirm-modal')">다시고르기</button>
+        <button class="modal-btn" onclick="goToOrderType()">결제하기</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 주문 방식 선택 모달 -->
+  <div class="modal" id="order-type-modal">
+    <div class="modal-content">
+      <h3 class="order-type-title">주문 방식을 선택해주세요</h3>
+      <div class="order-type-card-wrap">
+        <button class="order-type-card" onclick="selectOrderType('매장')">
+          <div class="order-type-icon">🍽️</div>
+          <div class="order-type-name">매장</div>
+        </button>
+        <button class="order-type-card" onclick="selectOrderType('포장')">
+          <div class="order-type-icon">🛍️</div>
+          <div class="order-type-name">포장</div>
+        </button>
+      </div>
+      <button class="modal-btn modal-btn-cancel order-type-cancel" onclick="closeModal('order-type-modal')">취소</button>
+    </div>
+  </div>
+
+  <!-- 결제수단 선택 모달 -->
+  <div class="modal" id="payment-modal">
+    <div class="modal-content">
+      <h3 style="margin-top:0;">결제수단 선택</h3>
+      <div style="display: flex; flex-direction: column; gap: 10px; margin-top: 20px;">
+        <button class="modal-btn" onclick="payByCard()">신용카드</button>
+        <button class="modal-btn" onclick="payByCoupon()">모바일 쿠폰</button>
+        <button class="modal-btn modal-btn-cancel" onclick="closeModal('payment-modal')">취소</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- data.js를 먼저 로드해야 app.js에서 menuData, optionConfig를 참조 가능 -->
+<script src="{{ url_for('static', filename='data.js') }}"></script>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>
