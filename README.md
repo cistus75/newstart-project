@@ -11,6 +11,8 @@
 * 2026 캡스톤디자인 경진대회 최우수상 
 <img width="350" height="500" alt="논문 수상" src="https://github.com/user-attachments/assets/3af1895f-4eac-4f47-9680-fd97f13f0fdb" />
 
+
+
 * 2026 한국정보기술학회 하계종합학술대회 금상
 <img width="800" height="600" alt="캡스톤 수상" src="https://github.com/user-attachments/assets/3de9d764-d813-4d7f-a59c-5ded0342a3f7" />
 
