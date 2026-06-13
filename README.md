@@ -9,10 +9,10 @@
 ## Awards
 
 2026 캡스톤디자인 경진대회 최우수상
-| <img width="4000" height="3000" alt="캡스톤 수상" src="https://github.com/user-attachments/assets/7453b76b-6b0e-4257-9fc2-4c6cedb11723" /> |
+<img width="3000" height="2000" alt="캡스톤 수상" src="https://github.com/user-attachments/assets/7453b76b-6b0e-4257-9fc2-4c6cedb11723" /> 
 
 2026 한국정보기술학회 하계종합학술대회 금상
-| <img width="4000" height="3000" alt="캡스톤 수상" src="https://github.com/user-attachments/assets/7c1e9cf7-c790-4c2b-828a-8c9828642bb8" /> |
+<img width="3000" height="2000" alt="캡스톤 수상" src="https://github.com/user-attachments/assets/7c1e9cf7-c790-4c2b-828a-8c9828642bb8" />
 
 
 ## Project Context
