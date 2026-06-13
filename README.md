@@ -71,9 +71,11 @@
 
 ## Developer
 
-| 최재우 |
-| [cistus75](https://github.com/cistus75) |
-| 기획 / AI 모델 개발 / 데이터 수집·전처리 / 외부 협업 / 발표 / 논문 집필 |
+
+| 최재우 · [cistus75](https://github.com/cistus75) |
+|:------|
+| 기획 · AI 모델 개발 · 데이터 수집·전처리 · 외부 협업 · 발표 · 논문 집필 |
+
 
 | 김민경 |
 ||
