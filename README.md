@@ -1,4 +1,3 @@
-<img width="737" height="1047" alt="논문 수상" src="https://github.com/user-attachments/assets/6b3b519c-840b-46ee-9ed6-b1b252043035" />
 # Team new-start : Project by AI and Vision
 
 경기대학교 상상기업 & 캡스톤 디자인 기반 팀 프로젝트
@@ -13,7 +12,8 @@
 <img width="737" height="1047" alt="논문 수상" src="https://github.com/user-attachments/assets/3af1895f-4eac-4f47-9680-fd97f13f0fdb" />
 
 2026 한국정보기술학회 하계종합학술대회 금상
-<img width="2000" height="500" alt="캡스톤 수상" src="https://github.com/user-attachments/assets/7c1e9cf7-c790-4c2b-828a-8c9828642bb8" />
+<img width="800" height="600" alt="캡스톤 수상" src="https://github.com/user-attachments/assets/3de9d764-d813-4d7f-a59c-5ded0342a3f7" />
+
 
 
 ## Project Context
