@@ -6,6 +6,15 @@
 
 -- 
 
+## Awards
+
+2026 캡스톤디자인 경진대회 최우수상
+| <img width="4000" height="3000" alt="캡스톤 수상" src="https://github.com/user-attachments/assets/7453b76b-6b0e-4257-9fc2-4c6cedb11723" /> |
+
+2026 한국정보기술학회 하계종합학술대회 금상
+| <img width="4000" height="3000" alt="캡스톤 수상" src="https://github.com/user-attachments/assets/7c1e9cf7-c790-4c2b-828a-8c9828642bb8" /> |
+
+
 ## Project Context
 
 본 프로젝트는 **경기대학교 상상기업 및 캡스톤 디자인** 과정을 기반으로 진행됩니다. 
@@ -57,6 +66,38 @@
 
 * Tech Stack : https://www.notion.so/5b111acc0b5f4cabb94ee2adb12e0696
 * Communication : Discord & KakaoTalk
+
+---
+
+## Developer
+
+| 최재우 |
+| [cistus75](https://github.com/cistus75) |
+| 기획 / AI 모델 개발 / 데이터 수집·전처리 / 외부 협업 / 발표 / 논문 집필 |
+
+| 김민경 |
+||
+
+| 김수현 |
+||
+
+| 김은혁 |
+||
+
+| 이정빈 |
+||
+
+| 정현수 |
+||
+
+| 홍석준 |
+||
+
+
+
+
+
+
 
 ---
 © 2026 Team New-Start. All rights reserved.
