@@ -106,7 +106,7 @@ Android 앱의 카메라 파이프라인, MediaPipe 손가락 추적, OCR, TTS, 
 
 <img alt="FP32와 TFLite INT8 모델 성능 비교" src="./paper_results/performance_comparison.png" />
 
-<img alt="키오스크 UI 요소 탐지 결과" src="./paper_results/fig3_detection_result.jpg" />
+<img alt="실제 촬영 환경의 키오스크 UI 요소 탐지 결과" src="./paper_results/fig4_detection_result.png" />
 
 ## 수상
 
