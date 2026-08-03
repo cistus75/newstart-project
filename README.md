@@ -126,7 +126,6 @@ Android 앱의 카메라 파이프라인, MediaPipe 손가락 추적, OCR, TTS, 
 | 실험 결과 | [paper_results](./paper_results/) |
 | Android 시스템 구조 | [CodeSpanner/readme.md](./CodeSpanner/readme.md) |
 | 학술대회 논문 원문 | [저시력자를 위한 온디바이스 키오스크 이용 가이드 시스템 개발](./docs/저시력자를_위한_온디바이스_키오스크_이용_가이드_시스템_개발.pdf) |
-| 기존 기술 스택 문서 | [Notion](https://www.notion.so/5b111acc0b5f4cabb94ee2adb12e0696) |
 
 ## 협업 방식
 
